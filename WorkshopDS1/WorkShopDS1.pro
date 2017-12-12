@@ -1,4 +1,4 @@
-update=11/27/2017 4:31:35 PM
+update=12/11/2017 10:20:09 PM
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=C:/Users/c4am95/Desktop/DRT/zlib;C:/Users/c4am95/Desktop/kicad/4ms-kicad-lib
+LibDir=C:/Users/c4am95/Desktop/DRT/zlib;C:/Users/c4am95/Desktop/DRT/_lib
 [eeschema/libraries]
 LibName1=lib-sch/4ms-headers
 LibName2=lib-sch/4ms-ic
