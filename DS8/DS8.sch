@@ -4727,12 +4727,12 @@ $EndComp
 $Comp
 L 4ms-passives:Dual_Transistor Q?
 U 2 1 5ED790AC
-P 11100 10650
-F 0 "Q?" H 11290 10696 50  0000 L CNN
-F 1 "3904" H 11290 10605 50  0000 L CNN
-F 2 "4ms-footprints:TO-92_Molded_Narrow" H 11300 10575 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 11100 10650 50  0001 L CNN
-	2    11100 10650
+P 11100 10775
+F 0 "Q?" H 11290 10821 50  0000 L CNN
+F 1 "3904" H 11290 10730 50  0000 L CNN
+F 2 "4ms-footprints:TO-92_Molded_Narrow" H 11300 10700 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 11100 10775 50  0001 L CNN
+	2    11100 10775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5538,4 +5538,339 @@ Text Notes 1150 8450 0    150  Italic 30
 VREF
 Text Notes 2125 9775 0    150  Italic 30
 POWER
+$Comp
+L 4ms-ic:LM13700 U0
+U 1 1 5DD17145
+P 13875 1850
+F 0 "U0" H 13875 2217 50  0000 C CNN
+F 1 "LM13700" H 13875 2126 50  0000 C CNN
+F 2 "" H 13575 1875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 13575 1875 50  0001 C CNN
+	1    13875 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:LM13700 U0
+U 2 1 5DD19038
+P 9950 10150
+F 0 "U0" H 9850 10498 50  0000 C CNN
+F 1 "LM13700" H 9850 10407 50  0000 C CNN
+F 2 "" H 9650 10175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9650 10175 50  0001 C CNN
+	2    9950 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:LM13700 U0
+U 4 1 5DD1AA81
+P 10350 11025
+F 0 "U0" H 10250 11373 50  0000 C CNN
+F 1 "LM13700" H 10250 11282 50  0000 C CNN
+F 2 "" H 10050 11050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 10050 11050 50  0001 C CNN
+	4    10350 11025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:LM13700 U0
+U 5 1 5DD1BE88
+P 8125 10325
+F 0 "U0" H 7775 10550 50  0000 L CNN
+F 1 "LM13700" V 7925 10150 50  0000 L CNN
+F 2 "" H 7825 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 7825 10350 50  0001 C CNN
+	5    8125 10325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:LM13700 U0
+U 3 1 5DD1CB0F
+P 9525 10675
+F 0 "U0" H 9525 11042 50  0000 C CNN
+F 1 "LM13700" H 9525 10951 50  0000 C CNN
+F 2 "" H 9225 10700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9225 10700 50  0001 C CNN
+	3    9525 10675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 10150
+NoConn ~ 10050 10250
+NoConn ~ 10050 11025
+NoConn ~ 10450 11125
+NoConn ~ 9825 10675
+NoConn ~ 9825 10775
+NoConn ~ 9225 10575
+NoConn ~ 9225 10675
+NoConn ~ 9225 10775
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5DF425BE
+P 8025 10725
+AR Path="/5B8C674E/5DF425BE" Ref="#PWR?"  Part="1" 
+AR Path="/5DF425BE" Ref="#PWR?"  Part="1" 
+AR Path="/5DCE035A/5DF425BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8025 10475 50  0001 C CNN
+F 1 "GND" H 7900 10700 50  0000 C CNN
+F 2 "" H 8025 10725 50  0000 C CNN
+F 3 "" H 8025 10725 50  0000 C CNN
+	1    8025 10725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5DF42840
+P 8275 10350
+AR Path="/5B8C674E/5DF42840" Ref="C?"  Part="1" 
+AR Path="/5DF42840" Ref="C?"  Part="1" 
+AR Path="/5DCE035A/5DF42840" Ref="C?"  Part="1" 
+F 0 "C?" H 8075 10400 50  0000 L CNN
+F 1 "0.1uF" H 8325 10300 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 8275 10350 50  0001 C CNN
+F 3 "" H 8275 10350 50  0000 C CNN
+F 4 "Mouser" H 7400 4325 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7400 4325 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 7400 4325 50  0001 C CNN "Designation"
+F 7 "C0603" H 7400 4325 50  0001 C CNN "Package"
+F 8 "TEST" H 7400 4325 50  0001 C CNN "Part Number"
+F 9 "2" H 7400 4325 50  0001 C CNN "Points"
+F 10 "SMD" H 7400 4325 50  0001 C CNN "SMD/TH"
+	1    8275 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 10625 8025 10675
+Wire Wire Line
+	8275 10025 8275 10250
+Wire Wire Line
+	8275 10450 8275 10675
+Wire Wire Line
+	8275 10675 8025 10675
+Connection ~ 8025 10675
+Wire Wire Line
+	8025 10675 8025 10725
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5DFE2647
+P 2625 10275
+F 0 "#PWR?" H 2625 10125 50  0001 C CNN
+F 1 "+5V" H 2640 10448 50  0000 C CNN
+F 2 "" H 2625 10275 50  0001 C CNN
+F 3 "" H 2625 10275 50  0001 C CNN
+	1    2625 10275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 10275 2625 10350
+Wire Wire Line
+	2625 10350 2675 10350
+Connection ~ 2675 10350
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5E01940A
+P 3700 10250
+F 0 "#PWR?" H 3700 10100 50  0001 C CNN
+F 1 "+5V" H 3715 10423 50  0000 C CNN
+F 2 "" H 3700 10250 50  0001 C CNN
+F 3 "" H 3700 10250 50  0001 C CNN
+	1    3700 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 10250 3700 10325
+Connection ~ 3700 10325
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5E083EE8
+P 8025 9875
+F 0 "#PWR?" H 8025 9725 50  0001 C CNN
+F 1 "+5V" H 8040 10048 50  0000 C CNN
+F 2 "" H 8025 9875 50  0001 C CNN
+F 3 "" H 8025 9875 50  0001 C CNN
+	1    8025 9875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 9875 8025 10025
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5E0F3036
+P 4650 10125
+F 0 "#PWR?" H 4650 9975 50  0001 C CNN
+F 1 "+5V" H 4665 10298 50  0000 C CNN
+F 2 "" H 4650 10125 50  0001 C CNN
+F 3 "" H 4650 10125 50  0001 C CNN
+	1    4650 10125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 10125 4650 10275
+Wire Wire Line
+	4650 10275 4750 10275
+Connection ~ 4750 10275
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5E12948C
+P 5725 10150
+F 0 "#PWR?" H 5725 10000 50  0001 C CNN
+F 1 "+5V" H 5740 10323 50  0000 C CNN
+F 2 "" H 5725 10150 50  0001 C CNN
+F 3 "" H 5725 10150 50  0001 C CNN
+	1    5725 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 10150 5725 10300
+Wire Wire Line
+	5725 10300 5825 10300
+Connection ~ 5825 10300
+Connection ~ 8025 10025
+Wire Wire Line
+	8025 10025 8275 10025
+Text Notes 13525 900  0    150  Italic 30
+VCA
+Text Notes 10000 3950 0    150  Italic 30
+NOISE
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 1 1 5E1D017C
+P 10925 4925
+AR Path="/5B8C674E/5E1D017C" Ref="U?"  Part="1" 
+AR Path="/5E1D017C" Ref="U5"  Part="1" 
+AR Path="/5DCE035A/5E1D017C" Ref="U?"  Part="2" 
+F 0 "U5" H 10975 5025 50  0000 L CNN
+F 1 "LM358" H 10900 5150 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 10925 4925 60  0001 C CNN
+F 3 "" H 10925 4925 60  0000 C CNN
+F 4 "Mouser" H 7800 2500 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7800 2500 50  0001 C CNN "Comments"
+	1    10925 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 3 1 5E1D1701
+P 7075 10275
+AR Path="/5B8C674E/5E1D1701" Ref="U?"  Part="3" 
+AR Path="/5E1D1701" Ref="U5"  Part="3" 
+AR Path="/5DCE035A/5E1D1701" Ref="U?"  Part="3" 
+F 0 "U5" V 7200 10200 50  0000 L CNN
+F 1 "LM385" V 7275 10200 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7075 10275 60  0001 C CNN
+F 3 "" H 7075 10275 60  0000 C CNN
+F 4 "Mouser" H 5950 4350 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 5950 4350 50  0001 C CNN "Comments"
+	3    7075 10275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-passives:C_Small C?
+U 1 1 5E1D1712
+P 6825 10375
+AR Path="/5B8C674E/5E1D1712" Ref="C?"  Part="1" 
+AR Path="/5E1D1712" Ref="C?"  Part="1" 
+AR Path="/5DCE035A/5E1D1712" Ref="C?"  Part="1" 
+F 0 "C?" H 6625 10425 50  0000 L CNN
+F 1 "0.1uF" H 6550 10350 50  0000 L CNN
+F 2 "4ms_Capacitor:C_0603" H 6825 10375 50  0001 C CNN
+F 3 "" H 6825 10375 50  0000 C CNN
+F 4 "Mouser" H 5950 4350 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 5950 4350 50  0001 C CNN "Comments"
+F 6 "16V,10%,X5R or X7R,0603" H 5950 4350 50  0001 C CNN "Designation"
+F 7 "C0603" H 5950 4350 50  0001 C CNN "Package"
+F 8 "TEST" H 5950 4350 50  0001 C CNN "Part Number"
+F 9 "2" H 5950 4350 50  0001 C CNN "Points"
+F 10 "SMD" H 5950 4350 50  0001 C CNN "SMD/TH"
+	1    6825 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E1D171C
+P 6825 10475
+AR Path="/5B8C674E/5E1D171C" Ref="#PWR?"  Part="1" 
+AR Path="/5E1D171C" Ref="#PWR?"  Part="1" 
+AR Path="/5DCE035A/5E1D171C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6825 10225 50  0001 C CNN
+F 1 "GND" H 6700 10450 50  0000 C CNN
+F 2 "" H 6825 10475 50  0000 C CNN
+F 3 "" H 6825 10475 50  0000 C CNN
+	1    6825 10475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E1D1726
+P 7350 10325
+AR Path="/5B8C674E/5E1D1726" Ref="#PWR?"  Part="1" 
+AR Path="/5E1D1726" Ref="#PWR?"  Part="1" 
+AR Path="/5DCE035A/5E1D1726" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7350 10075 50  0001 C CNN
+F 1 "GND" H 7225 10300 50  0000 C CNN
+F 2 "" H 7350 10325 50  0000 C CNN
+F 3 "" H 7350 10325 50  0000 C CNN
+	1    7350 10325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 10275 7350 10275
+Wire Wire Line
+	7350 10275 7350 10325
+$Comp
+L 4ms-power:+5V #PWR?
+U 1 1 5E1D1732
+P 6725 10125
+F 0 "#PWR?" H 6725 9975 50  0001 C CNN
+F 1 "+5V" H 6740 10298 50  0000 C CNN
+F 2 "" H 6725 10125 50  0001 C CNN
+F 3 "" H 6725 10125 50  0001 C CNN
+	1    6725 10125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6725 10125 6725 10275
+Wire Wire Line
+	6725 10275 6825 10275
+Connection ~ 6825 10275
+$Comp
+L 4ms-ic:NJM2068-separate-power U?
+U 2 1 5E27784C
+P 10925 9925
+AR Path="/5B8C674E/5E27784C" Ref="U?"  Part="1" 
+AR Path="/5E27784C" Ref="U?"  Part="2" 
+AR Path="/5DCE035A/5E27784C" Ref="U?"  Part="2" 
+F 0 "U?" H 10975 10025 50  0000 L CNN
+F 1 "LM358" H 10900 10150 50  0000 L CNN
+F 2 "4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 10925 9925 60  0001 C CNN
+F 3 "" H 10925 9925 60  0000 C CNN
+F 4 "Mouser" H 7800 7500 50  0001 C CNN "Manufacturer"
+F 5 "Substitution OK" H 7800 7500 50  0001 C CNN "Comments"
+	2    10925 9925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11225 9925 11225 10300
+Wire Wire Line
+	11225 10300 10625 10300
+Wire Wire Line
+	10625 10300 10625 10025
+$Comp
+L 4ms-power:GND #PWR?
+U 1 1 5E2B2566
+P 10500 9875
+AR Path="/5B8C674E/5E2B2566" Ref="#PWR?"  Part="1" 
+AR Path="/5E2B2566" Ref="#PWR?"  Part="1" 
+AR Path="/5DCE035A/5E2B2566" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10500 9625 50  0001 C CNN
+F 1 "GND" H 10375 9850 50  0000 C CNN
+F 2 "" H 10500 9875 50  0000 C CNN
+F 3 "" H 10500 9875 50  0000 C CNN
+	1    10500 9875
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 9875 10500 9825
+Wire Wire Line
+	10500 9825 10625 9825
+Text Notes 9325 9225 0    150  Italic 30
+UNUSED PINS
 $EndSCHEMATC
