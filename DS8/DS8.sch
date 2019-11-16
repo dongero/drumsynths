@@ -1297,10 +1297,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6800 4925 50  000
 	0    -1   1    0   
 $EndComp
 $Comp
-L 4ms-ic:MBT3904DW1 Q2
+L 4ms-ic:MBT3904DW1 Q1
 U 2 1 5ED790AC
 P 15450 9525
-F 0 "Q2" H 15640 9571 50  0000 L CNN
+F 0 "Q1" H 15640 9571 50  0000 L CNN
 F 1 "3904" H 15640 9480 50  0000 L CNN
 F 2 "4ms_Package_SOT:SOT-363_SC-70-6" H 15650 9450 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 15450 9525 50  0001 L CNN
@@ -2544,10 +2544,10 @@ F 8 "C0603" H 7250 2850 50  0001 C CNN "Package"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 4ms-ic:MBT3904DW1 Q1
+L 4ms-ic:MBT3904DW1 Q2
 U 2 1 5E450D15
 P 11000 5775
-F 0 "Q1" H 11190 5821 50  0000 L CNN
+F 0 "Q2" H 11190 5821 50  0000 L CNN
 F 1 "3904" H 11190 5730 50  0000 L CNN
 F 2 "4ms_Package_SOT:SOT-363_SC-70-6" H 11200 5700 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 11000 5775 50  0001 L CNN
@@ -3461,4 +3461,7 @@ Wire Notes Line
 	8925 7950 12500 7950
 Text Notes 9100 8250 0    150  Italic 30
 INCOMING POWER
+NoConn ~ 15550 9325
+NoConn ~ 15550 9725
+NoConn ~ 15250 9525
 $EndSCHEMATC
