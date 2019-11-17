@@ -1552,18 +1552,6 @@ Connection ~ 5475 4475
 Wire Wire Line
 	6200 4475 6800 4475
 $Comp
-L 4ms-headers:Test_Point TP1
-U 1 1 5F0C5CB9
-P 5475 5000
-F 0 "TP1" H 5417 5026 50  0000 R CNN
-F 1 "J10-S0" H 5417 5117 50  0000 R CNN
-F 2 "4ms_TestPoint:TestPoint_WireHole" H 5675 5000 50  0001 C CNN
-F 3 "" H 5675 5000 50  0001 C CNN
-	1    5475 5000
-	-1   0    0    1   
-$EndComp
-Connection ~ 5475 5000
-$Comp
 L 4ms-passives:R R?
 U 1 1 5F0F0A83
 P 6975 10150
@@ -3365,37 +3353,19 @@ Wire Wire Line
 Wire Wire Line
 	14725 2100 14775 2100
 $Comp
-L 4ms-mech:JACK-MONO INL?
-U 1 1 5E040806
-P 950 2275
-AR Path="/5B8C674E/5E040806" Ref="INL?"  Part="1" 
-AR Path="/5E040806" Ref="Piezo1"  Part="1" 
-AR Path="/5DCE035A/5E040806" Ref="INL?"  Part="1" 
-F 0 "Piezo1" H 1156 2662 60  0000 C CNN
-F 1 "JACK-MONO" H 1156 2556 60  0000 C CNN
-F 2 "4ms_Jack:EighthInch_PJ398SM" H 950 2275 60  0001 C CNN
-F 3 "" H 950 2275 60  0000 C CNN
-F 4 "Mouser" H -600 -400 50  0001 C CNN "Manufacturer"
-F 5 "Substitution OK" H -600 -400 50  0001 C CNN "Comments"
-F 6 "2" H -600 -400 50  0001 C CNN "Points"
-	1    950  2275
-	1    0    0    -1  
-$EndComp
-$Comp
 L 4ms-power:GND #PWR?
 U 1 1 5E0413E2
-P 750 2675
+P 1600 2350
 AR Path="/5B8C674E/5E0413E2" Ref="#PWR?"  Part="1" 
 AR Path="/5E0413E2" Ref="#PWR0106"  Part="1" 
 AR Path="/5DCE035A/5E0413E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 750 2425 50  0001 C CNN
-F 1 "GND" H 900 2600 50  0000 C CNN
-F 2 "" H 750 2675 50  0000 C CNN
-F 3 "" H 750 2675 50  0000 C CNN
-	1    750  2675
+F 0 "#PWR0106" H 1600 2100 50  0001 C CNN
+F 1 "GND" H 1750 2275 50  0000 C CNN
+F 2 "" H 1600 2350 50  0000 C CNN
+F 3 "" H 1600 2350 50  0000 C CNN
+	1    1600 2350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1200 2275
 Wire Wire Line
 	1600 1150 1225 1150
 Wire Wire Line
@@ -3570,4 +3540,28 @@ F 3 "" H 10525 9725 50  0001 C CNN
 	1    10325 9725
 	-1   0    0    1   
 $EndComp
+$Comp
+L 4ms-headers:Test_Point PIEZO1
+U 1 1 5DFA64AD
+P 1600 2125
+F 0 "PIEZO1" V 1600 2575 50  0000 R CNN
+F 1 "TP" H 1650 2075 50  0001 R CNN
+F 2 "4ms_TestPoint:TestPoint_WireHole" H 1800 2125 50  0001 C CNN
+F 3 "" H 1800 2125 50  0001 C CNN
+	1    1600 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 4ms-headers:Test_Point PIEZO2
+U 1 1 5DFAC996
+P 1600 2300
+F 0 "PIEZO2" V 1600 2750 50  0000 R CNN
+F 1 "TP" H 1650 2250 50  0001 R CNN
+F 2 "4ms_TestPoint:TestPoint_WireHole" H 1800 2300 50  0001 C CNN
+F 3 "" H 1800 2300 50  0001 C CNN
+	1    1600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2300 1600 2350
 $EndSCHEMATC
