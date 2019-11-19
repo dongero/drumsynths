@@ -3541,17 +3541,6 @@ F 3 "" H 10525 9725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 4ms-headers:Test_Point ENV?
-U 1 1 5DF961CB
-P 5100 1900
-F 0 "ENV?" H 5150 1850 50  0000 R CNN
-F 1 "TP" H 5150 1850 50  0001 R CNN
-F 2 "4ms_TestPoint:TestPoint_Pad_10" H 5300 1900 50  0001 C CNN
-F 3 "" H 5300 1900 50  0001 C CNN
-	1    5100 1900
-	-1   0    0    1   
-$EndComp
-$Comp
 L 4ms-headers:Test_Point PIEZO1
 U 1 1 5DFA64AD
 P 1600 2125
