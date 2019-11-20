@@ -1,29 +1,71 @@
-6285012221309
-4ms_TestPoint
-TestPoint_Pad_04
+15320285587289
+4ms_Capacitor
+CP_Elec_5x5.3
+SMT capacitor, aluminium electrolytic, 5x5.3
+
+0
+2
+2
+4ms_Capacitor
+CP_Radial_NP_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms_Capacitor
+CP_Radial_P2.5mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms_Capacitor
+CP_Tantalum_EIA-6032-28_Kemet-C
+Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint
+capacitor tantalum smd
+0
+2
+2
+4ms_Capacitor
+C_0402
 
 
 0
-1
-1
-4ms_TestPoint
-TestPoint_Pad_06
-
+2
+2
+4ms_Capacitor
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603 C0603
+0
+2
+2
+4ms_Capacitor
+C_0805
+C0805
 
 0
-1
-1
-4ms_TestPoint
-TestPoint_Pad_10
-
+2
+2
+4ms_Capacitor
+C_1206
+C1206
 
 0
-1
-1
-4ms_TestPoint
-TestPoint_WireHole
-module 1 pin (ou trou mecanique de percage)
-DEV
+2
+2
+4ms_Capacitor
+C_1210
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
 0
-1
-1
+2
+2
+4ms_Capacitor
+C_Disc_P5.08mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
+0
+2
+2
