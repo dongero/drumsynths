@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/dag/Desktop/kicad/drumsynths/DS8/DS8.sch</source>
+    <date>Monday, November 18, 2019 at 04:02:10 PM</date>
+    <tool>Eeschema (5.1.4-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DS8.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U6">
+      <value>KA78L05</value>
+      <footprint>4ms_Package_SOT:SOT223</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/ld1117-974075.pdf</datasheet>
+      <libsource lib="4ms-vreg" part="LD1117ADT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCE2AA1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM385</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-ic" part="NJM2068-separate-power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9EBE4</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9EBF1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN-02x05</value>
+      <footprint>4ms_Connector:Pins_2x05_2.54mm_TH_Europower</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-headers" part="EURO_HEADER_10pin" description="Connector, double row, 02x08, pin header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9ED8E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>B140HW-7</value>
+      <footprint>4ms_Diode:D_SOD-123</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">SOD123</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="B140HW-7" description="Schottky Barrier Rectifier Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9EDAB</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>47uF</value>
+      <footprint>4ms_Capacitor:CP_Elec_5x5.3</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9EDBD</tstamp>
+    </comp>
+    <comp ref="Trigger_In1">
+      <value>JACK-MONO</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Points">2</field>
+      </fields>
+      <libsource lib="4ms-mech" part="JACK-MONO" description="Jack, Mono with switch and ground"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9F0CD</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9F161</tstamp>
+    </comp>
+    <comp ref="SEL_NOISE1">
+      <value>ON/ON</value>
+      <footprint>4ms_Switch:Switch_Toggle_SPDT_SubMini</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="SW_SPDT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9F266</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>22uF 0805 -BIN</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEDD0C2</tstamp>
+    </comp>
+    <comp ref="Sense1">
+      <value>50kA</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E06CA53</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E1317</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E2962</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SD103AWS</value>
+      <footprint>4ms_Diode:D_SOD-323F</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">SOD123</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E11E353</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>3.3uF</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0805</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E16E6E0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E185C14</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SD103AWS</value>
+      <footprint>4ms_Diode:D_SOD-323F</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">SOD123</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1F7591</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4K7</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23DEF2</tstamp>
+    </comp>
+    <comp ref="SWEEP1">
+      <value>50K</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E28575C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>3.3uF</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0805</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E286DAB</tstamp>
+    </comp>
+    <comp ref="DECAY1">
+      <value>1M</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F0DDE</tstamp>
+    </comp>
+    <comp ref="CV_In1">
+      <value>JACK-MONO</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Points">2</field>
+      </fields>
+      <libsource lib="4ms-mech" part="JACK-MONO" description="Jack, Mono with switch and ground"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E48AE62</tstamp>
+    </comp>
+    <comp ref="PITCH1">
+      <value>50K</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E521E91</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>68K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A5E29</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>39K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2CFD15</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>68K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2E99B9</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>39K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C2546</tstamp>
+    </comp>
+    <comp ref="LFO_LVL1">
+      <value>2M2</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C2BAA</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E69D6D7</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>22R</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F138F</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>220R</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F260C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM385</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-ic" part="NJM2068-separate-power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7D8E4C</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7D9924</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87402A</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E951501</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9B7779</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA97EF7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>3904</value>
+      <footprint>4ms_Package_SOT:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="4ms-ic" part="MBT3904DW1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED788C7</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM385</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-ic" part="NJM2068-separate-power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE089EF</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0948F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE09B28</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE34E55</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F073FAE</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0F0A83</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0F18B7</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0805</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2BD821</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2E84B6</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F391F09</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM385</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-ic" part="NJM2068-separate-power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F412926</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4136D1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F44672C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F447399</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5281B6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3K3</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5565EA</tstamp>
+    </comp>
+    <comp ref="LFO_SPEED1">
+      <value>?</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F771D73</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA30CEE</tstamp>
+    </comp>
+    <comp ref="U0">
+      <value>LM13700</value>
+      <footprint>4ms_Package_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm13700.pdf</datasheet>
+      <libsource lib="4ms-ic" part="LM13700" description="Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD17145</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM385</value>
+      <footprint>4ms_Package_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-ic" part="NJM2068-separate-power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1D017C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD2CBAB</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87401B</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F04EA</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D10B6</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>470K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA12D0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA1AFF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>47K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEEB49B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEE47D7</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEE4D84</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D3969</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1M</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4123CA</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>3904</value>
+      <footprint>4ms_Package_SOT:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="4ms-ic" part="MBT3904DW1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E450D15</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D15CA</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>330R</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6CFD46</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>15K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E792B11</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47nF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E85E11F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A150E</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>33K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8E49C0</tstamp>
+    </comp>
+    <comp ref="Mix1">
+      <value>50K-100K</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9FAC1D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220R</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE8F66E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220R</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE901D2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0805</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EED9729</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F045164</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>NC</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0DA81F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>4ms_Capacitor:C_0805</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">Min. 25V, X5R/X6S/X7R/X7S, 0805, MLCC</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0805</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F17353A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>4ms_Resistor:R_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">1%,1/10W,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">RC0603FR-07XXXL</field>
+      </fields>
+      <libsource lib="4ms-passives" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1C00A3</tstamp>
+    </comp>
+    <comp ref="OUT1">
+      <value>JACK-MONO</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Points">2</field>
+      </fields>
+      <libsource lib="4ms-mech" part="JACK-MONO" description="Jack, Mono with switch and ground"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F20CDAA</tstamp>
+    </comp>
+    <comp ref="DCJack1">
+      <value>JACK-MONO</value>
+      <footprint>4ms_Jack:EighthInch_PJ398SM</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Points">2</field>
+      </fields>
+      <libsource lib="4ms-mech" part="JACK-MONO" description="Jack, Mono with switch and ground"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC86E56</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF42840</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>4ms_Capacitor:C_0603</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Designation">16V,10%,X5R or X7R,0603</field>
+        <field name="Manufacturer">Mouser</field>
+        <field name="Package">C0603</field>
+        <field name="Part Number">TEST</field>
+        <field name="Points">2</field>
+        <field name="SMD/TH">SMD</field>
+      </fields>
+      <libsource lib="4ms-passives" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1D1712</tstamp>
+    </comp>
+    <comp ref="Volume1">
+      <value>100K</value>
+      <footprint>4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="POT" description="Potentionmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE8FCE6</tstamp>
+    </comp>
+    <comp ref="POWER1">
+      <value>ON/ON</value>
+      <footprint>4ms_Switch:Switch_Toggle_SPDT_SubMini</footprint>
+      <fields>
+        <field name="Comments">Substitution OK</field>
+        <field name="Manufacturer">Mouser</field>
+      </fields>
+      <libsource lib="4ms-mech" part="SW_SPDT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E07044E</tstamp>
+    </comp>
+    <comp ref="ENV1">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD9050C</tstamp>
+    </comp>
+    <comp ref="ENV2">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDC0311</tstamp>
+    </comp>
+    <comp ref="LFO1">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDE9EF8</tstamp>
+    </comp>
+    <comp ref="LFO2">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF9745</tstamp>
+    </comp>
+    <comp ref="VCO1">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1F116</tstamp>
+    </comp>
+    <comp ref="VCO2">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF1F120</tstamp>
+    </comp>
+    <comp ref="NSE1">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02A446</tstamp>
+    </comp>
+    <comp ref="NSE2">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_Pad_10</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02A450</tstamp>
+    </comp>
+    <comp ref="-12V1">
+      <value>-12V</value>
+      <footprint>4ms_TestPoint:TestPoint_WireHole</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E1215EE</tstamp>
+    </comp>
+    <comp ref="PIEZO1">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_WireHole</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFA64AD</tstamp>
+    </comp>
+    <comp ref="PIEZO2">
+      <value>TP</value>
+      <footprint>4ms_TestPoint:TestPoint_WireHole</footprint>
+      <libsource lib="4ms-headers" part="Test_Point" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFAC996</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4ms-headers" part="EURO_HEADER_10pin">
+      <description>Connector, double row, 02x08, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EURO_HEADER_10pin</field>
+        <field name="Footprint">4ms-footprints:Header_2x05_Pitch2.54mm_TH_-12v_Label</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="passive"/>
+        <pin num="2" name="+12V" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="-12V" type="passive"/>
+        <pin num="10" name="-12V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-headers" part="Test_Point">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Test_Point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-ic" part="LM13700">
+      <aliases>
+        <alias>LM13600</alias>
+      </aliases>
+      <description>Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm13700.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM13700</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="DIODE_BIAS" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="output"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="+" type="input"/>
+        <pin num="15" name="DIODE_BIAS" type="input"/>
+        <pin num="16" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-ic" part="NPN_DUAL">
+      <aliases>
+        <alias>MBT3904DW1</alias>
+      </aliases>
+      <description>100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363</description>
+      <docs>http://www.nxp.com/documents/data_sheet/BC846BS.pdf</docs>
+      <footprints>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN_DUAL</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-ic" part="OPAMP-DUAL-separate-power">
+      <aliases>
+        <alias>NJM2068-separate-power</alias>
+        <alias>TL082-separate-power</alias>
+      </aliases>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPAMP-DUAL-separate-power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-mech" part="JACK-MONO">
+      <description>Jack, Mono with switch and ground</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK-MONO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="SHEILD" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-mech" part="POT">
+      <description>Potentionmeter</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Left" type="passive"/>
+        <pin num="2" name="Center" type="passive"/>
+        <pin num="3" name="Right" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-mech" part="SWITCH_INV">
+      <aliases>
+        <alias>SW_SPDT</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-passives" part="B140HW-7">
+      <description>Schottky Barrier Rectifier Diode, SOD-123</description>
+      <footprints>
+        <fp>D*SOD*123</fp>
+        <fp>D_SOD-123</fp>
+        <fp>SOD*123</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B140HW-7</field>
+        <field name="Footprint">4ms-footprints:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-passives" part="CP1_Small">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-passives" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-passives" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-passives" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms-vreg" part="LD1117ADT">
+      <footprints>
+        <fp>*TO-252-2*</fp>
+        <fp>*TO?252?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LD1117ADT</field>
+        <field name="Footprint">TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="passive"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4ms-headers">
+      <uri>/Users/dag/Desktop/kicad/_lib/lib-sch/4ms-headers.lib</uri>
+    </library>
+    <library logical="4ms-ic">
+      <uri>/Users/dag/Desktop/kicad/_lib/lib-sch/4ms-ic.lib</uri>
+    </library>
+    <library logical="4ms-mech">
+      <uri>/Users/dag/Desktop/kicad/_lib/lib-sch/4ms-mech.lib</uri>
+    </library>
+    <library logical="4ms-passives">
+      <uri>/Users/dag/Desktop/kicad/_lib/lib-sch/4ms-passives.lib</uri>
+    </library>
+    <library logical="4ms-vreg">
+      <uri>/Users/dag/Desktop/kicad/_lib/lib-sch/4ms-vreg.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(-12V1-Pad1)">
+      <node ref="-12V1" pin="1"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="2" name="Net-(DCJack1-Pad3)">
+      <node ref="DCJack1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad9)">
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad2)">
+      <node ref="POWER1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Sense1-Pad3)">
+      <node ref="Sense1" pin="3"/>
+      <node ref="Trigger_In1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(PIEZO1-Pad1)">
+      <node ref="Trigger_In1" pin="3"/>
+      <node ref="PIEZO1" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="PIEZO2" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Trigger_In1" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Volume1" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Sense1" pin="1"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U0" pin="6"/>
+      <node ref="P1" pin="6"/>
+      <node ref="R13" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="DCJack1" pin="2"/>
+      <node ref="OUT1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Mix1" pin="2"/>
+      <node ref="SWEEP1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="DECAY1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="CV_In1" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="LFO_LVL1" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R38" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="C21" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U0" pin="11"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="10" name="Net-(Sense1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="Sense1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C1-Pad2)">
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(ENV1-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="ENV1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="SWEEP1" pin="3"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="15" name="/VCA_P5">
+      <node ref="U0" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="16" name="/SWEEP">
+      <node ref="SWEEP1" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="17" name="Net-(DECAY1-Pad2)">
+      <node ref="DECAY1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="DECAY1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(CV_In1-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="CV_In1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(CV_In1-Pad3)">
+      <node ref="CV_In1" pin="3"/>
+    </net>
+    <net code="20" name="Net-(PITCH1-Pad1)">
+      <node ref="PITCH1" pin="1"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="21" name="Net-(PITCH1-Pad2)">
+      <node ref="R37" pin="1"/>
+      <node ref="PITCH1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(LFO_LVL1-Pad3)">
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="LFO_LVL1" pin="3"/>
+    </net>
+    <net code="23" name="Net-(PITCH1-Pad3)">
+      <node ref="PITCH1" pin="3"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="24" name="/VCO">
+      <node ref="R15" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="25" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R28-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R32-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C11-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="29" name="Net-(Q1-Pad6)">
+      <node ref="Q1" pin="6"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="30" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="31" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="32" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="33" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="34" name="/VREF">
+      <node ref="R12" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R14-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R17-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R40-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C12-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="41" name="/SUM">
+      <node ref="C5" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="43" name="Net-(LFO_SPEED1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="LFO_SPEED1" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="44" name="Net-(LFO_SPEED1-Pad3)">
+      <node ref="LFO_SPEED1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C4-Pad1)">
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="2"/>
+      <node ref="LFO_SPEED1" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="46" name="Net-(U0-Pad2)">
+      <node ref="U0" pin="2"/>
+    </net>
+    <net code="47" name="Net-(U0-Pad10)">
+      <node ref="U0" pin="10"/>
+    </net>
+    <net code="48" name="Net-(U0-Pad9)">
+      <node ref="U0" pin="9"/>
+    </net>
+    <net code="49" name="Net-(U0-Pad7)">
+      <node ref="U0" pin="7"/>
+    </net>
+    <net code="50" name="Net-(U0-Pad8)">
+      <node ref="U0" pin="8"/>
+    </net>
+    <net code="51" name="Net-(U0-Pad12)">
+      <node ref="U0" pin="12"/>
+    </net>
+    <net code="52" name="Net-(U0-Pad13)">
+      <node ref="U0" pin="13"/>
+    </net>
+    <net code="53" name="Net-(U0-Pad14)">
+      <node ref="U0" pin="14"/>
+    </net>
+    <net code="54" name="Net-(U0-Pad15)">
+      <node ref="U0" pin="15"/>
+    </net>
+    <net code="55" name="Net-(U0-Pad16)">
+      <node ref="U0" pin="16"/>
+    </net>
+    <net code="56" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="57" name="Net-(C6-Pad2)">
+      <node ref="SEL_NOISE1" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C7-Pad1)">
+      <node ref="SEL_NOISE1" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="60" name="Net-(C8-Pad1)">
+      <node ref="SEL_NOISE1" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="61" name="Net-(C10-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="62" name="Net-(Q2-Pad6)">
+      <node ref="Q2" pin="6"/>
+    </net>
+    <net code="63" name="Net-(C13-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C10-Pad2)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="67" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U0" pin="3"/>
+    </net>
+    <net code="68" name="Net-(R2-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U0" pin="4"/>
+    </net>
+    <net code="69" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="70" name="Net-(OUT1-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="OUT1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(OUT1-Pad3)">
+      <node ref="OUT1" pin="3"/>
+    </net>
+    <net code="72" name="Net-(C14-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="73" name="Net-(C16-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="74" name="Net-(DCJack1-Pad1)">
+      <node ref="DCJack1" pin="1"/>
+      <node ref="POWER1" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C2-Pad1)">
+      <node ref="Volume1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="76" name="Net-(R3-Pad2)">
+      <node ref="U0" pin="5"/>
+      <node ref="Volume1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="77" name="Net-(POWER1-Pad3)">
+      <node ref="POWER1" pin="3"/>
+    </net>
+    <net code="78" name="Net-(D2-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="ENV2" pin="1"/>
+    </net>
+    <net code="79" name="Net-(LFO1-Pad1)">
+      <node ref="LFO1" pin="1"/>
+      <node ref="LFO_LVL1" pin="2"/>
+    </net>
+    <net code="80" name="/LFO_LEVEL">
+      <node ref="R31" pin="1"/>
+      <node ref="LFO2" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="VCO1" pin="1"/>
+    </net>
+    <net code="82" name="/MIX_POT_1">
+      <node ref="R30" pin="1"/>
+      <node ref="VCO2" pin="1"/>
+      <node ref="Mix1" pin="1"/>
+    </net>
+    <net code="83" name="Net-(NSE1-Pad1)">
+      <node ref="NSE1" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="84" name="/MIX_POT_3">
+      <node ref="Mix1" pin="3"/>
+      <node ref="NSE2" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+  </nets>
+</export>
