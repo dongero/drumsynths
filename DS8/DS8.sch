@@ -500,7 +500,7 @@ AR Path="/5B8C674E/5E16E6E0" Ref="C?"  Part="1"
 AR Path="/5E16E6E0" Ref="C1"  Part="1" 
 AR Path="/5DCE035A/5E16E6E0" Ref="C?"  Part="1" 
 F 0 "C1" H 3800 1675 50  0000 L CNN
-F 1 "3.3uF - 10uF on proto" H 3725 1750 50  0000 L CNN
+F 1 "2.2uF" H 3725 1750 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0805" H 3700 1675 50  0001 C CNN
 F 3 "" H 3700 1675 50  0000 C CNN
 F 4 "Mouser" H -2950 -2700 50  0001 C CNN "Manufacturer"
@@ -649,7 +649,7 @@ AR Path="/5B8C674E/5E286DAB" Ref="C?"  Part="1"
 AR Path="/5E286DAB" Ref="C3"  Part="1" 
 AR Path="/5DCE035A/5E286DAB" Ref="C?"  Part="1" 
 F 0 "C3" H 6150 2050 50  0000 L CNN
-F 1 "3.3uF - 10uF on proto" H 6075 2125 50  0000 L CNN
+F 1 "OMITTED SUPPOSED TO BE 3.3" H 6075 2125 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0805" H 6050 2050 50  0001 C CNN
 F 3 "" H 6050 2050 50  0000 C CNN
 F 4 "Mouser" H -600 -2325 50  0001 C CNN "Manufacturer"
@@ -1231,7 +1231,7 @@ AR Path="/5B8C674E/5E9B7779" Ref="C?"  Part="1"
 AR Path="/5E9B7779" Ref="C11"  Part="1" 
 AR Path="/5DCE035A/5E9B7779" Ref="C?"  Part="1" 
 F 0 "C11" H 6250 5725 50  0000 L CNN
-F 1 "0.1uF" H 6175 5650 50  0000 L CNN
+F 1 "10nF - CONTROLS PITCH" V 7150 5350 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0603" H 6450 5675 50  0001 C CNN
 F 3 "" H 6450 5675 50  0000 C CNN
 F 4 "Mouser" H 5575 -350 50  0001 C CNN "Manufacturer"
@@ -2348,7 +2348,7 @@ AR Path="/5B8C674E/5DDA1AFF" Ref="C?"  Part="1"
 AR Path="/5DDA1AFF" Ref="C6"  Part="1" 
 AR Path="/5DCE035A/5DDA1AFF" Ref="C?"  Part="1" 
 F 0 "C6" V 12150 4075 50  0000 L CNN
-F 1 "22pF" V 11975 3950 50  0000 L CNN
+F 1 "1nF get rid of shitty high pitch noise" V 11975 3950 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0603" H 12100 4025 50  0001 C CNN
 F 3 "" H 12100 4025 50  0000 C CNN
 F 4 "Mouser" H 11225 -2000 50  0001 C CNN "Manufacturer"

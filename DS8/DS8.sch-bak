@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DS8-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -499,7 +500,7 @@ AR Path="/5B8C674E/5E16E6E0" Ref="C?"  Part="1"
 AR Path="/5E16E6E0" Ref="C1"  Part="1" 
 AR Path="/5DCE035A/5E16E6E0" Ref="C?"  Part="1" 
 F 0 "C1" H 3800 1675 50  0000 L CNN
-F 1 "3.3uF" H 3725 1750 50  0000 L CNN
+F 1 "3.3uF - 10uF on proto" H 3725 1750 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0805" H 3700 1675 50  0001 C CNN
 F 3 "" H 3700 1675 50  0000 C CNN
 F 4 "Mouser" H -2950 -2700 50  0001 C CNN "Manufacturer"
@@ -648,7 +649,7 @@ AR Path="/5B8C674E/5E286DAB" Ref="C?"  Part="1"
 AR Path="/5E286DAB" Ref="C3"  Part="1" 
 AR Path="/5DCE035A/5E286DAB" Ref="C?"  Part="1" 
 F 0 "C3" H 6150 2050 50  0000 L CNN
-F 1 "3.3uF" H 6075 2125 50  0000 L CNN
+F 1 "3.3uF - 10uF on proto" H 6075 2125 50  0000 L CNN
 F 2 "4ms_Capacitor:C_0805" H 6050 2050 50  0001 C CNN
 F 3 "" H 6050 2050 50  0000 C CNN
 F 4 "Mouser" H -600 -2325 50  0001 C CNN "Manufacturer"
